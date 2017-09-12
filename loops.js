@@ -8,3 +8,10 @@ function forLoop(array) {
     }
     return array;
 }
+
+function whileLoop(countdown) {
+    while (countdown > 0) {
+        console.log(--countdown);
+    }
+    return 'done';
+}
